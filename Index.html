@@ -48,13 +48,23 @@
             })*/
         //var data = require("https://github.com/jpbr66/PruebaSIG/blob/main/postes.geojson");
         //myLayer.addData(data);
-        map.addSource("https://github.com/jpbr66/PruebaSIG/blob/main/postes.geojson", {
+        /*map.addSource("https://github.com/jpbr66/PruebaSIG/blob/main/postes.geojson", {
              "type": "geojson",
              "data": {
                "type": "FeatureCollection",
                //"features": theRouteJsonText
              }
-           });
+           });*/
+        
+        async function obtenerUsuarios() {
+            // Realiza la petición
+            const miFetch = await fetch('https://github.com/jpbr66/PruebaSIG/blob/main/postes.geojson');
+            // Transforma la respuesta. En este caso lo convierte a JSON
+            const json = await miFetch.json();
+            // Imprimo por consola
+            console.log(json);
+        }
+        obtenerUsuarios();
         /*var geojsonFeature = {
         "type": "FeatureCollection",
         "name": "postes",
