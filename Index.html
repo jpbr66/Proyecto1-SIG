@@ -45,7 +45,7 @@
 ]
 };
         //L.geoJSON(superHeroes).addTo(map);
-        var map = L.map('map').setView([ -83.8922197, 9.861432 ], 20);
+        //var map = L.map('map').setView([ -83.8922197, 9.861432 ], 20);
         /*var geojsonFeature = {
             "type": "Feature",
             "properties": {
@@ -58,15 +58,16 @@
                 "coordinates": [9.86116, -83.89304]
             }
         };*/
-        var myLayer = L.geoJSON().addTo(map);
-        myLayer.addData(geojsonFeature);
-        //var map = L.map('map').setView([9.86116, -83.89304], 20);
+        
+        var map = L.map('map').setView([-83.8922197, 9.861432], 20);
 
-/*         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
-
-       L.marker([9.86116, -83.89304]).addTo(map)
+        
+        var myLayer = L.geoJSON().addTo(map);
+        myLayer.addData(geojsonFeature);
+/*        L.marker([9.86116, -83.89304]).addTo(map)
             .bindPopup('Residencial Vista Real')
             .openPopup();*/
     </script>
