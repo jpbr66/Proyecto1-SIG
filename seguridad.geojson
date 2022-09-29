@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "seguridad",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "cat": 113, "osm_id": null, "osm_way_id": "1097149840", "name": "Seguridad", "type": null, "aeroway": null, "amenity": null, "admin_level": null, "barrier": null, "boundary": null, "building": "residential", "craft": null, "geological": null, "historic": null, "land_area": null, "landuse": null, "leisure": null, "man_made": null, "military": null, "natural": null, "office": null, "place": null, "shop": null, "sport": null, "tourism": null, "other_tags": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.89279127810164, 9.860297312396842 ], [ -83.892764312644559, 9.860344331213785 ], [ -83.8928212, 9.8603623 ], [ -83.89279127810164, 9.860297312396842 ] ] ] } },
+{ "type": "Feature", "properties": { "cat": 113, "osm_id": null, "osm_way_id": "1097149840", "name": "Seguridad", "type": null, "aeroway": null, "amenity": null, "admin_level": null, "barrier": null, "boundary": null, "building": "residential", "craft": null, "geological": null, "historic": null, "land_area": null, "landuse": null, "leisure": null, "man_made": null, "military": null, "natural": null, "office": null, "place": null, "shop": null, "sport": null, "tourism": null, "other_tags": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.89279127810164, 9.860297312396842 ], [ -83.8927735, 9.8602587 ], [ -83.8927214, 9.8603058 ], [ -83.89273, 9.8603242 ], [ -83.8927525, 9.8603406 ], [ -83.892764312644559, 9.860344331213785 ], [ -83.89279127810164, 9.860297312396842 ] ] ] } }
+]
+}

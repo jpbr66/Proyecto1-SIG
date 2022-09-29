@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "apartamentos",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "cat": 37, "osm_id": null, "osm_way_id": "1097147022", "name": "AP1", "type": null, "aeroway": null, "amenity": null, "admin_level": null, "barrier": null, "boundary": null, "building": "apartments", "craft": null, "geological": null, "historic": null, "land_area": null, "landuse": null, "leisure": null, "man_made": null, "military": null, "natural": null, "office": null, "place": null, "shop": null, "sport": null, "tourism": null, "other_tags": "\"building:levels\"=>\"4\"" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.8921504, 9.8618199 ], [ -83.8921525, 9.8616678 ], [ -83.8920773, 9.8616642 ], [ -83.8920339, 9.861801 ], [ -83.8921504, 9.8618199 ] ] ] } }
+]
+}

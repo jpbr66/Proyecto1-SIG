@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "campos",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "cat": 46, "osm_id": null, "osm_way_id": "1097147031", "name": "Campo", "type": null, "aeroway": null, "amenity": null, "admin_level": null, "barrier": null, "boundary": null, "building": null, "craft": null, "geological": null, "historic": null, "land_area": null, "landuse": "farmland", "leisure": null, "man_made": null, "military": null, "natural": null, "office": null, "place": null, "shop": null, "sport": null, "tourism": null, "other_tags": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.8927243, 9.8604141 ], [ -83.8925692, 9.8607912 ], [ -83.8926592, 9.8607946 ], [ -83.8927344, 9.8607975 ], [ -83.8928051, 9.8608002 ], [ -83.8928729, 9.8608028 ], [ -83.8928993, 9.8608038 ], [ -83.8930283, 9.8605213 ], [ -83.8927243, 9.8604141 ] ] ] } }
+]
+}

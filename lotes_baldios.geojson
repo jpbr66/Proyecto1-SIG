@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "lotes_baldios",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "cat": 61, "osm_id": null, "osm_way_id": "1097149787", "name": null, "type": null, "aeroway": null, "amenity": null, "admin_level": null, "barrier": null, "boundary": null, "building": null, "craft": null, "geological": null, "historic": null, "land_area": null, "landuse": null, "leisure": null, "man_made": null, "military": null, "natural": "grassland", "office": null, "place": null, "shop": null, "sport": null, "tourism": null, "other_tags": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.893515, 9.8618709 ], [ -83.8935276, 9.8618206 ], [ -83.8933443, 9.8617732 ], [ -83.8933309, 9.8618331 ], [ -83.8933536, 9.86186 ], [ -83.893515, 9.8618709 ] ] ] } },
+{ "type": "Feature", "properties": { "cat": 62, "osm_id": null, "osm_way_id": "1097149788", "name": null, "type": null, "aeroway": null, "amenity": null, "admin_level": null, "barrier": null, "boundary": null, "building": null, "craft": null, "geological": null, "historic": null, "land_area": null, "landuse": null, "leisure": null, "man_made": null, "military": null, "natural": "grassland", "office": null, "place": null, "shop": null, "sport": null, "tourism": null, "other_tags": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.8931776, 9.8614937 ], [ -83.8931731, 9.8616387 ], [ -83.8932065, 9.8616372 ], [ -83.8932095, 9.8616731 ], [ -83.8932532, 9.8617003 ], [ -83.8933081, 9.8615386 ], [ -83.8932793, 9.8615012 ], [ -83.8931776, 9.8614937 ] ] ] } }
+]
+}

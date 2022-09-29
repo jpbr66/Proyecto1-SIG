@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "caminos",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "cat": 12, "osm_id": "1098147147", "name": "camino", "highway": "footway", "waterway": null, "aerialway": null, "barrier": null, "man_made": null, "z_order": 0, "other_tags": null }, "geometry": { "type": "LineString", "coordinates": [ [ -83.8933427, 9.8618872 ], [ -83.893364, 9.8619229 ], [ -83.8933663, 9.8619925 ] ] } },
+{ "type": "Feature", "properties": { "cat": 13, "osm_id": "1098147415", "name": null, "highway": "footway", "waterway": null, "aerialway": null, "barrier": null, "man_made": null, "z_order": 0, "other_tags": null }, "geometry": { "type": "LineString", "coordinates": [ [ -83.8934724, 9.860751 ], [ -83.8935916, 9.8607497 ], [ -83.8935927, 9.8607941 ], [ -83.8935894, 9.8605594 ] ] } }
+]
+}
