@@ -46,7 +46,7 @@
                 success: function(data){
                     myLayer.addData(data);
             })*/
-        var data = {"type": "GET","url":"https://github.com/jpbr66/PruebaSIG/blob/main/postes.geojson"};
+        var data = require("https://github.com/jpbr66/PruebaSIG/blob/main/postes.geojson");
         myLayer.addData(data);
                 
         /*var geojsonFeature = {
