@@ -40,14 +40,14 @@
         var map = L.map('map').setView([9.86116, -83.89304], 20);
         var myLayer = L.geoJSON().addTo(map);
         
-        function traerDatos(){
-            $.ajax({
+        $.ajax({
                 type: "GET"
                 url: "https://github.com/jpbr66/PruebaSIG/blob/main/postes.geojson"
                 success: function(data){
                     myLayer.addData(data);
             })
-        }
+        
+
                 
         /*var geojsonFeature = {
         "type": "FeatureCollection",
