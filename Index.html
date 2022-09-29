@@ -15,7 +15,11 @@
 <body>
     <div id="map" style="height: 630px"></div>
     <script>
-        var map = L.map('map').setView([9.86116, -83.89304], 20);
+        var geojsonFeature = {
+                'url' : 'https://github.com/jpbr66/PruebaSIG/blob/main/calles.geojson'
+            };
+        L.geoJSON(geojsonFeature).addTo(map);
+        //var map = L.map('map').setView([9.86116, -83.89304], 20);
 
         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
