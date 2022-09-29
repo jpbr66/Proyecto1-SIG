@@ -40,13 +40,14 @@
         var map = L.map('map').setView([9.86116, -83.89304], 20);
         var myLayer = L.geoJSON().addTo(map);
         
-        $.ajax({
-                url: "https://github.com/jpbr66/PruebaSIG/blob/main/postes.geojson"
+        /*$.ajax({
+                'type': "GET"
+                'url': "https://github.com/jpbr66/PruebaSIG/blob/main/postes.geojson"
                 success: function(data){
                     myLayer.addData(data);
-            })
-        
-
+            })*/
+        var data = {'url':'https://github.com/jpbr66/PruebaSIG/blob/main/postes.geojson'};
+        myLayer.addData(data);
                 
         /*var geojsonFeature = {
         "type": "FeatureCollection",
