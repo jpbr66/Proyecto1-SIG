@@ -70,7 +70,7 @@
         obtenerUsuarios();*/
         
         $.getJSON('postes.geojson', function (data) {
-            console.log(data);
+            myLayer.addData(data);
         });
         
         /*var geojsonFeature = {
