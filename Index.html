@@ -15,9 +15,7 @@
 <body>
     <div id="map" style="height: 630px"></div>
     <script>
-        var geojsonFeature = {
-                'url' : 'https://github.com/jpbr66/PruebaSIG/blob/main/calles.geojson'
-            };
+        var geojsonFeature = 'https://github.com/jpbr66/PruebaSIG/blob/main/calles.geojson'
         L.geoJSON(geojsonFeature).addTo(map);
         //var map = L.map('map').setView([9.86116, -83.89304], 20);
 
