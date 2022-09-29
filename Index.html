@@ -304,7 +304,7 @@
         { "type": "Feature", "properties": { "cat": 3, "osm_id": "1834911763", "name": null, "barrier": null, "highway": "turning_circle", "ref": null, "address": null, "is_in": null, "place": null, "man_made": null, "other_tags": null }, "geometry": { "type": "Point", "coordinates": [ -83.8921007, 9.8618841 ] } }
         ]
         };
-        myLayer.addData(geojsonFeature);
+        
         
         var geojsonMarkerOptions = {
             radius: 8,
@@ -318,6 +318,8 @@
         L.geoJSON(geojsonFeature, {
             style: geojsonMarkerOptions
         }).addTo(map);
+        
+        myLayer.addData(geojsonFeature);
         /*L.geoJSON(someGeojsonFeature, {
             pointToLayer: function (feature, latlng) {
                 return L.circleMarker(latlng, geojsonMarkerOptions);
