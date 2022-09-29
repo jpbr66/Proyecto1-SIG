@@ -46,9 +46,15 @@
                 success: function(data){
                     myLayer.addData(data);
             })*/
-        var data = require("https://github.com/jpbr66/PruebaSIG/blob/main/postes.geojson");
-        myLayer.addData(data);
-                
+        //var data = require("https://github.com/jpbr66/PruebaSIG/blob/main/postes.geojson");
+        //myLayer.addData(data);
+        map.addSource("https://github.com/jpbr66/PruebaSIG/blob/main/postes.geojson", {
+             "type": "geojson",
+             "data": {
+               "type": "FeatureCollection",
+               //"features": theRouteJsonText
+             }
+           });
         /*var geojsonFeature = {
         "type": "FeatureCollection",
         "name": "postes",
